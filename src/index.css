@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+svg {
+  margin-right: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+select {
+  margin: 5px;
+  padding: 7px 30px;
+  width: 200px;
+}
+
+svg[data-icon="server"] {
+  margin: 5px
+}
+
+input {
+  padding: 7px 30px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.d-relative {
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  width: 30%;
+  margin-left: auto;
+  margin-bottom: 15px;
+  padding: 10px 5px;
+  text-align: left;
+  background: none;
+}
+
+.btn-blue {
+  border-color: #5454c1;
+  color: #5454c1;
+}
+
+.btn-green {
+  border-color: #45862f;
+  color: #45862f;
+}
+
+.select-mark {
+  position: absolute;
+  top: calc(50% - 13px);
+  left: 17px;
+}
+
+.container-form {
+  margin: 5px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 2px solid rgba( 0, 0, 0, .2);
+  position: relative;
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-form:nth-child(even) {
+  border-color: #5454c1;
+}
+
+.button-del {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.container-comment {
+  margin-top: 10px;
+}
+
+.container-server, .container-comment {
+  display: flex
+}
+
+.list-server {
+ display: flex;
+  font-weight: 500;
+}
+
+.form-name, .container-comment {
+  grid-column: 1/4;
+}
