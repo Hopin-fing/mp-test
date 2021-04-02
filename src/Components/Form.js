@@ -90,9 +90,6 @@ const Form = ({locations, numberForm, delSet}) => {
                     </select>
                 </div>
             </div>
-            {/*TODO: - Сделать запятые при перечеслении*/}
-            {/*     -   Удаление элементов*/}
-            {/*     -   Правильный вывод в консоль и косметические изменения ну и код проверить*/}
             <div className={"d-flex"}>
                 <div className={'container-server'}>
                     <p>Серверы:</p>

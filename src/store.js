@@ -29,11 +29,6 @@ class Store {
   constructor() {
     makeAutoObservable(this);
     this.fetchData()
-
-    // this.locations = sample.locations;
-      // this.envs = sample.envs;
-      // this.servers = sample.servers;
-      // this.isLoaded = true;
   }
 }
 

@@ -18,12 +18,6 @@ const TestLocationForm = observer(function TestLocationForm({locations, numberFr
   const store = useContext(storeContext);
   const [delForm, setDelForm] = useState(false)
 
-    // removeForm(locations.slice(0, 1))
-    // console.log(locations)
-
-    // if(!delForm) removeForm([...locations].slice(numberFrom))
-
-
     if (!store.isLoaded) {
     return <div>Данные не загружены</div>;
   }
