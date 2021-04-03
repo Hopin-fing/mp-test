@@ -14,7 +14,7 @@ class Store {
   servers = [];
 
   fetchData = async () => {
-    await sleep(0);
+    await sleep(3000);
     runInAction(() => {
       this.locations = sample.locations;
       this.envs = sample.envs;
